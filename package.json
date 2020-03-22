@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@firebase/app": "^0.6.0",
+    "@firebase/firestore": "^1.12.2",
+    "@firebase/firestore-types": "^1.10.1",
+    "moment": "^2.24.0",
+    "nanoid": "^2.1.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.0",
@@ -14,9 +19,12 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
+    "@types/moment-timezone": "^0.5.12",
+    "@types/nanoid": "^2.1.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0"
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
