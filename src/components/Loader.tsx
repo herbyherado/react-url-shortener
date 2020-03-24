@@ -5,7 +5,7 @@ const Loader = () => {
   return (
     <Wrapper>
       {new Array(4).fill('').map((wave: string, index) => (
-        <Wave index={index + 1} />
+        <Wave key={`wave-${index}`} index={index + 1} />
       ))}
     </Wrapper>
   );
